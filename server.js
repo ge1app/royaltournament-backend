@@ -9,7 +9,7 @@ app.use(cors());
 // 🔴 REPLACE THESE WITH YOUR CASHFREE API KEYS FROM YOUR DASHBOARD
 const CASHFREE_APP_ID = "667352df14424500e82f8c2307253766";
 const CASHFREE_SECRET_KEY = "cfsk_ma_prod_fcce7fef36b367558df61a0bc68d7fca_3e106266";
-const CASHFREE_URL = "https://api.cashfree.com/pg/orders"; 
+const CASHFREE_URL = "https://api.cashfree.com/pg/orders";
 
 app.post('/api/create-order', async (req, res) => {
     try {
