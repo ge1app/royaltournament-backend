@@ -17,8 +17,8 @@ if ($_SERVER['REQUEST_METHOD'] !== 'POST') {
 }
 
 // 🔴 REPLACE THESE WITH YOUR ACTUAL CASHFREE KEYS
-$cashfree_app_id = "667352df14424500e82f8c2307253766";
-$cashfree_secret_key = "cfsk_ma_prod_fcce7fef36b367558df61a0bc68d7fca_3e106266";
+const CASHFREE_APP_ID ="667352df14424500e82f8c2307253766";
+const CASHFREE_SECRET_KEY = "cfsk_ma_prod_fcce7fef36b367558df61a0bc68d7fca_3e106266";
 const CASHFREE_URL = "https://api.cashfree.com/pg/orders";
 // Read the incoming JSON data sent by your Android app (Volley)
 $input_data = file_get_contents("php://input");
